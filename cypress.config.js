@@ -24,7 +24,7 @@ module.exports = defineConfig({
       configFile: "reporter-config.json",
     },
     retries: {
-      runmode: 0,
+      runMode: 0,
       openMode: 1, // add retry test when fail
     },
     env: {
